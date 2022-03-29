@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #333;
+  color: #f1f1f1;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+:root{
+    --baseShade1: #0E2A53;
+    --baseShade2: #005682;
+    --baseShade3: #008599;
+    --baseShade4: #458084;
+    --baseShade5: #006C82;
+    --baseShade6: #00A2B7;
+
+    --clubBlue1:  #77D1D0;
+    --clubBlue2:  #46A2B7;
+    --clubBlue3:  #6A7A8E;
+    --clubWhite1: #C7C7C7;
+    --clubWhite2: #E7E7E7;
+    --clubRed1:  #D56170
+
+}
+
+.dark:root {
+
+
+    --clubBlue1: #137C7C;
+    --clubRed1:  #F65151;
+    --clubBlue2: #004457;
+    --clubWhite1: #516174;
+    --clubWhite2: #848484;
+
+    /*Ready-made dark palette*/
+
+    --colorHuntWhite1 :#DDDDDD;
+    --colorHuntBlack1 :#222831;
+    --colorHuntBlue1 :#30475E;
+    --colorHuntRed1 :#F05454;
+
+    --hotBlakShade: #503A3A;
+    --darkRed: #F65151;
+
+}
+
+@media (prefers-reduced-motion: reduce) {
+    html:focus-within {
+      scroll-behavior: auto;
+    }
+
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+
+  :root {
+    --baseShade1: #5F7ADB;
+    --baseShade2: #A2B2EE;
+    --baseShade3: #3E60BD;
+    --baseShade4: #1047A0;
+    --baseShade5: #003083;
+    --baseShade6: #4A69C7;
+
+    --blueShade1: #0E2A53;
+    --blueShade2: #3C4F7C;
+    --blueShade3: #6677A7;
+    --blueShade4: #92A2D5;
+    --blueShade5: #BFCFFF;
+
+    --redShade1: #AB0C12;
+    --redShade2: #D43C2F;
+    --redShade3: #FD614D;
+    --redShade4: #FF856C;
+    --redShade5: #FFA98D;
+
+    --whiteClub1: #CECECE;
+    --whiteClub2:#B4B7BC;
+    --whiteClub3: #96A1A9;
+    --whiteClub4: #768D93;
+    --whiteClub5: #F7F7F7;
+
+    --whiteShade1: #F7F7F7;
+    --whiteShade2: #f8fafb;
+    --blackShade1: #26292B;
+    --blackShade2: #2E3239;
+    --blackShade3: #1A1C22;
+    --blackShade4: #3D3A50;
+
+    --hotBlakShade: #503A3A;
+    --darkRed: #F65151;
+ }
+}
