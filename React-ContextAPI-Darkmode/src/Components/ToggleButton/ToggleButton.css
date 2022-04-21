@@ -1,0 +1,57 @@
+.btn-toggle {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+}
+
+
+#toggle {
+    -webkit-appearance: none ;
+    appearance: none;
+    height: 40px;
+    width: 75px;
+    background-color: #15181f;
+    position: absolute;
+    right: 0;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+} 
+
+ #toggle::after {
+     content: "";
+     position: absolute;
+     height: 30px;
+     width: 30px;
+     background-color: #ffffff;
+     top: 5px;
+     left: 5px;
+     border-radius: 50%;
+ }
+
+
+
+ .dark-body {
+     background-color: #15181f;
+     color: #e5e5e5;
+ }
+
+ .dark-body #toggle {
+     background-color: #ffffff;
+
+ }
+
+ .dark-body #toggle::after {
+    background-color: transparent;
+    box-shadow: 10px 10px #15181f;
+    top: -4px;
+    left: 30px;
+    
+}
