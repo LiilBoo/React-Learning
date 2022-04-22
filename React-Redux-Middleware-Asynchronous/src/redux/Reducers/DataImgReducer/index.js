@@ -1,0 +1,1 @@
+export { DataImgReducer, getCatImages } from './DataImgReducer';
