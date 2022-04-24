@@ -1,0 +1,29 @@
+.card {
+	max-width: 300px;
+	min-width: 300px;
+	min-height: 200px;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 10px;
+	cursor: pointer;
+	box-shadow: 0 5px 15px
+		rgba(255, 255, 255, 0.2);
+	text-align: left;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	transition: transform 0.3s ease-out;
+}
+
+.card:hover {
+	transform: scale(1.05) translateY(-5px);
+}
+
+.card h2 {
+	font-size: 25px;
+	margin-bottom: 10px;
+}
+
+.card p {
+	font-size: 18px;
+}
